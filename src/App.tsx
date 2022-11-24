@@ -6,10 +6,8 @@ import "./App.css";
 
 const apiKey: string = process.env.REACT_APP_API_KEY as string;
 
-console.log({ apiKey });
-
-const tickersURL = `http://api.marketstack.com/v1/tickers?access_key=${apiKey}`;
-const eodURL = `http://api.marketstack.com/v1/eod?access_key=${apiKey}`;
+const tickersURL = `http://api.marketstack.com/v1/tickers?access_key=bcb0900792029301a7761bfab370a24f`;
+const eodURL = `http://api.marketstack.com/v1/eod?access_key=bcb0900792029301a7761bfab370a24f`;
 
 interface SymbolOption {
   value: string;
